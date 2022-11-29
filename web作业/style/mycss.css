@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+div {
+	width: 100%;
+	height: 100%;
+}
+div p {
+	position: relative;
+	top: 156px;
+	left: 0;
+	font-weight: 400;
+	font-size: 322px;
+	text-align: center;
+}
+div p span:first-child {
+	color: skyblue;
+}
+div p span:nth-child(2) {
+	color: lightpink;
+}
+div p span:nth-child(3) {
+	color: darkorange;
+}
+div p span:nth-child(4) {
+	color: darkgreen;
+}
+div p span:nth-child(5) {
+	color: gainsboro;
+}
+div p span:last-child {
+	color: palevioletred;
+}
+div p span:hover {
+	color: orangered;
+	font-size: 344px;
+	transition: 1.2s all;
+	border-bottom: 10px solid orangered;
+	text-shadow: 7px 7px 11px orangered;
+}
